@@ -12,6 +12,8 @@
 		FB3238871E4A9D2800D435CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3238851E4A9D2800D435CF /* Main.storyboard */; };
 		FB3238891E4A9D2900D435CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3238881E4A9D2900D435CF /* Assets.xcassets */; };
 		FB32388C1E4A9D2A00D435CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB32388A1E4A9D2A00D435CF /* LaunchScreen.storyboard */; };
+		FB3238941E4AA2D600D435CF /* ShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3238931E4AA2D600D435CF /* ShowDetailViewController.swift */; };
+		FB3238961E4AA6AF00D435CF /* ModallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3238951E4AA6AF00D435CF /* ModallyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB3238881E4A9D2900D435CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB32388B1E4A9D2A00D435CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB32388D1E4A9D2A00D435CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3238931E4AA2D600D435CF /* ShowDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailViewController.swift; sourceTree = "<group>"; };
+		FB3238951E4AA6AF00D435CF /* ModallyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModallyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				FB3238811E4A9D2800D435CF /* AppDelegate.swift */,
 				FB3238831E4A9D2800D435CF /* ViewController.swift */,
 				FB3238851E4A9D2800D435CF /* Main.storyboard */,
+				FB3238951E4AA6AF00D435CF /* ModallyViewController.swift */,
+				FB3238931E4AA2D600D435CF /* ShowDetailViewController.swift */,
 				FB3238881E4A9D2900D435CF /* Assets.xcassets */,
 				FB32388A1E4A9D2A00D435CF /* LaunchScreen.storyboard */,
 				FB32388D1E4A9D2A00D435CF /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3238941E4AA2D600D435CF /* ShowDetailViewController.swift in Sources */,
 				FB3238841E4A9D2800D435CF /* ViewController.swift in Sources */,
 				FB3238821E4A9D2800D435CF /* AppDelegate.swift in Sources */,
+				FB3238961E4AA6AF00D435CF /* ModallyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +271,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pe.area51.Transiciones-en-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -275,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pe.area51.Transiciones-en-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
